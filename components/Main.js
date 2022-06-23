@@ -5,7 +5,7 @@ import Features from "./Features";
 import Header from "./Header";
 
 const styles = {
-  wrapper: "h-full w-full flex flex-col mt-[50px] pr-[50px] overflow-hidden",
+  wrapper: "h-full w-full flex flex-col mt-[50px] pr-[50px] overflow-hidden ",
   recentTitle: "text-2xl font-bold text-center mb-[20px] text-center mt-[40px]",
   recentTransactionList: "flex flex-col",
   transactionCard:

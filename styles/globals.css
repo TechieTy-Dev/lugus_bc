@@ -7,4 +7,19 @@
 body{
   background:#062e54;
   font-family: 'Rubik', sans-serif;
+  
+}
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
