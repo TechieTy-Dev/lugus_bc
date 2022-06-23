@@ -12,7 +12,7 @@ const styles = {
   transactions: "flex gap-[50px] flex-row flex-wrap",
 };
 
-const history = () => {
+const History = () => {
   const { ownedItems } = UseContext(LugusContext);
   return (
     <div className={styles.wrapper}>
@@ -38,4 +38,4 @@ const history = () => {
   );
 };
 
-export default history;
+export default History;

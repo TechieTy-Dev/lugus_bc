@@ -30,15 +30,16 @@ const BuyModal = ({ close, buyTokens }) => {
     etherscanLink,
     setEtherscanLink,
   } = useContext(LugusContext);
-  useEffect(() => {
-    calculatePrice();
-  }, [tokenAmount]);
 
   const calculatePrice = () => {
     const price = parseFloat(tokenAmount * 0.0001);
     price = price.toFixed(4);
     setAmountDue(price);
   };
+
+  useEffect(() => {
+    calculatePrice();
+  }, [tokenAmount]);
 
   return (
     <div className={styles.wrapper}>

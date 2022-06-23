@@ -27,7 +27,7 @@ const Main = () => {
         recentTransactions.map((transactions, index) => {
           console.log(transactions);
           return (
-            <div className={styles.recentTransactionList}>
+            <div key={index} className={styles.recentTransactionList}>
               <div className={styles.transactionCard}>
                 <p>From: {transactions.attributes.from_address}</p>
                 <p> To: {transactions.attributes.to_address}</p>

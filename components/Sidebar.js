@@ -35,6 +35,8 @@ const Sidebar = () => {
   const {
     isAuthenticated,
     nickname,
+    buyTokens,
+    getBalance,
     setNickname,
     username,
     handleSetUsername,
